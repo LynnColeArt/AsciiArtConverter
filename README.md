@@ -56,7 +56,7 @@ To convert an image to colored ASCII art and generate the HTML output, follow th
 
     shell
 
-`python ascii_converter.py image_path`
+`python art.py image_path`
 
 Replace `image_path` with the relative path to your image file. For example:
 
