@@ -8,7 +8,7 @@ Lynn's Ascii Art Converter is a Python script that converts an image into reason
 
     shell
 
--   `git clone https://github.com/your-username/ascii-art-converter.git`
+-   `git clone https://github.com/LynnColeArt/AsciiArtConverter.git`
 
     -   Navigate to the project directory:
 
