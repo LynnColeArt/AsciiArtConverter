@@ -64,9 +64,9 @@ shell
 
 1.  `python ascii_converter.py images/my_image.png`
 
-    This will convert the image to colored ASCII art and generate an HTML file named `output.html` in the project directory.
+    This will convert the image to colored ASCII art and generate an HTML file named after your original file, but with the .html extension.
 
-2.  Open `output.html` in a web browser to view the generated ASCII art.
+2.  Open the file in a web browser to view the generated ASCII art.
 
 ## Customization
 
