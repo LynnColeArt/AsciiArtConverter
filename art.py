@@ -32,11 +32,13 @@ file_name = os.path.splitext(base_name)[0]
 output_file = file_name + ".html"
 
 # Read the HTML template
-with open("ascii.html", "r") as f:
+with open("ascii.html", "r", encoding="utf-8") as f:
     html_template = f.read()
 
 # Substitute the placeholder with the ASCII art
-html = html_template.format(ascii_art)
+#html = html_template.format(ascii_art)
+html = f"{html_template.replace('{}', ascii_art)}"
+
 
 # Write the final HTML to a file
 with open(output_file, "w") as f:
